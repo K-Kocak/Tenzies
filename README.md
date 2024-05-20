@@ -1,8 +1,22 @@
-# Getting Started with Create React App
+# Tenzies
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Tenzi dice game made with JavaScript and React.
 
-## Available Scripts
+## Contents
+
+- [Features](#features)
+- [Installation](#installation)
+- [Functionality and Screenshots](#functionality-and-screenshots)
+- [Credits](#credits)
+
+## Features
+
+- Play the dice game Tenzi by clicking the "Roll" button.
+- Any die that hasn't been held will re-roll into a new number.
+- This loop continues until all ten of your die are held and are of the same number, at which point you win the game.
+- Clicking the roll button again will start a fresh game.
+
+## Installation
 
 In the project directory, you can run:
 
@@ -39,32 +53,32 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Functionality and Screenshots
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+*Tenzi - In Progress*
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![tenzi in progress](./docs/readme/inprogressPicture.png)
 
-### Code Splitting
+A game of Tenzi in progress, with some die being held (green)
+- The roll button can be pressed at the bottom, and all die will be re-rolled except the ones the user has clicked on, marked in green.
+- The goal is to get all ten die to be the same number.
+- Once all 10 die are green, or is being held, the game ends.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+*Tenzi - End State*
 
-### Analyzing the Bundle Size
+![tenzi end state](./docs/readme/victoryPicture.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The end state of the Tenzi dice game.
+- All die are the same number and have been held (marked in green) and so the game is over.
+- The roll button text changes to a "New Game" prompt, which once clicked will re-roll all the numbers and no die will be held by the player.
 
-### Making a Progressive Web App
+## Credits
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Tools
 
-### Advanced Configuration
+- JavaScript
+- React
+- CSS
+- HTML
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Back to Top](#contents)
